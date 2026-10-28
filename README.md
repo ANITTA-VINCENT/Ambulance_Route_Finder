@@ -9,15 +9,16 @@ An interactive graphical application designed to find the shortest and fastest e
 ![Emergency Ambulance Route Finder GUI](gui_main.png)
 
 ---
-What the app does
+## What the app does
 Problem: the city is a graph. Junctions and hospitals are vertices, roads are edges, and each edge weight is the travel time in minutes. The app finds the fastest route for an ambulance, either to a hospital you choose or to the nearest hospital automatically.
+
 Inputs: left-click a node to set the ambulance start and right-click a node to set the destination. You can also add junctions, hospitals and roads, edit a road’s travel time to model traffic, block a road for an accident or flood, and delete nodes.
+
 Visualization:
 Colours show current, visited, in-queue and final-route nodes.
 The number above each node is its shortest time so far.
 A live table shows time and previous node, and a step log explains each relax or check.
 Use “Find Route” for an instant answer, or “Start step-by-step”, “Next step” and “Auto-play” with a speed slider to watch the algorithm run.
-Early stop: the search stops when the first hospital is extracted from the priority queue, because that distance is already final.
 
 ## Key Features
 
