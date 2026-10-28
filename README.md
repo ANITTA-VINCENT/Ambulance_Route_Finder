@@ -1,2 +1,1 @@
-# Ambulance_Route_Finder
-Emergency Ambulance Route Finder Using Dijkstra’s Algorithm
+![Emergency Ambulance Route Finder](https://user-images.githubusercontent.com/.../screenshot.png)
